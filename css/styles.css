@@ -1,0 +1,75 @@
+:root {
+  --primary-text-color: #757575;
+  --title-text-color: #212121;
+  --accent-color: #2196f3;
+  --primary-bg-color: white;
+}
+
+/* Цвет основного текста: #212121
+Вторичный цвет  #757575 
+цвет контактов rgba(255, 255, 255, 0.6)
+белый цвет: #FFFFFF
+акцентный цвет = #2196F3  */
+/* цвет фона основной #FFFFFF
+цвет фона вторичный #2F303A */
+.page {
+  background-color: white;
+  color: #212121;
+}
+
+/* Шапка Навигация */
+.logo {
+  color: #2196f3;
+  font-family: Raleway;
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 31px;
+  letter-spacing: 0.03em;
+  text-align: left;
+}
+.logostudio {
+  color: black;
+  font-family: Oleo Script;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 26px;
+  line-height: 35, 96px;
+  letter-spacing: 0.03em;
+}
+
+.nav-list-current{
+  color:var(--accent-color)
+
+}
+
+
+
+.nav-list {
+  color: var(--title-text-color)
+  font-family: Roboto;
+}
+.nav-list:hover,
+.nav-list:focus {
+  color: var(--accent-color)
+}
+.nav-number {
+  color: var(--primary-text-color)
+}
+
+/* Баннер */
+.banner-title {
+  color: #ffffff;
+}
+
+.banner {
+  background-color: #2f303a;
+}
+.banner-text {
+  color: #ffffff;
+}
+
+.banner-text{
+  background-color: var(--accent-color);
+  color: var(--primary-bg-color)
+}
