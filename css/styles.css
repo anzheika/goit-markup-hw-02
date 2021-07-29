@@ -12,15 +12,20 @@
 акцентный цвет = #2196F3  */
 /* цвет фона основной #FFFFFF
 цвет фона вторичный #2F303A */
-.page {
+body {
   background-color: white;
   color: #212121;
+  font-family: 'Roboto';
 }
 
+ul {
+  list-style: none;
+}
 /* Шапка Навигация */
 .logo {
+  text-decoration: none;
   color: #2196f3;
-  font-family: Raleway;
+  font-family: 'Raleway';
   font-size: 26px;
   font-style: normal;
   font-weight: 700;
@@ -29,8 +34,9 @@
   text-align: left;
 }
 .logostudio {
+  text-decoration: none;
   color: black;
-  font-family: Oleo Script;
+  font-family: 'Oleo Script';
   font-weight: 700;
   font-style: normal;
   font-size: 26px;
@@ -38,23 +44,26 @@
   letter-spacing: 0.03em;
 }
 
-.nav-list-current{
-  color:var(--accent-color)
-
+.nav-list.current {
+  color: var(--accent-color);
 }
 
-
+.header-email {
+  text-decoration: none;
+}
 
 .nav-list {
-  color: var(--title-text-color)
-  font-family: Roboto;
+  text-decoration: none;
+  color: var(--title-text-color);
 }
+
 .nav-list:hover,
 .nav-list:focus {
-  color: var(--accent-color)
+  color: var(--accent-color);
 }
 .nav-number {
-  color: var(--primary-text-color)
+  text-decoration: none;
+  color: var(--primary-text-color);
 }
 
 /* Баннер */
@@ -69,7 +78,19 @@
   color: #ffffff;
 }
 
-.banner-text{
+.banner-text {
   background-color: var(--accent-color);
-  color: var(--primary-bg-color)
+  color: var(--primary-bg-color);
+}
+
+.section-one h3 {
+  color: chocolate;
+}
+
+.section-one p {
+  color: chartreuse;
+}
+
+.nav-header a {
+  color: blueviolet;
 }
