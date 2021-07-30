@@ -5,6 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Homework 1</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
 
@@ -20,8 +24,8 @@
         </ul>
       </nav>
 
-      <ul class="nav-header">
-        <li><a href="mailto:info@devstudio.com" class="nav-list">info@devstudio.com</a></li>
+      <ul>
+        <li><a href="mailto:info@devstudio.com" class="nav-email">info@devstudio.com</a></li>
         <li><a href="tel:+380991111111" class="nav-number">+38 099 111 11 11</a></li>
       </ul>
     </header>
@@ -29,14 +33,14 @@
       <!--<Баннер и кнопка для заказа услуги-->
       <section class="banner">
         <h1 class="banner-title">Эффективные решения для вашего бизнеса</h1>
-        <button type="button" class="banner-text">Заказать услугу</button>
+        <button type="button" class="button-text">Заказать услугу</button>
       </section>
 
       <!--Наши преймущества-->
       <section class="section-one">
         <h2>Наши преймущества</h2>
-        <ul>
-          <li class="section-title">
+        <ul class="our-advantages">
+          <li>
             <h3>Внимание к деталям</h3>
             <p>Идейные соображения, а также начало повседневной работы по формированию позиции.</p>
           </li>
@@ -61,7 +65,7 @@
 
       <!--Род деятельности-->
       <section>
-        <h2>Чем мы занимаемся</h2>
+        <h2 class="whatdowedo">Чем мы занимаемся</h2>
         <ul>
           <li>
             <img src="images/img.jpg" width="370" alt="A person typying on the laptop" />
@@ -77,8 +81,8 @@
 
       <!--Члены команды-->
       <section>
-        <h2>Наша команда</h2>
-        <ul>
+        <h2 class="">Наша команда</h2>
+        <ul class="our-team">
           <li>
             <img src="images/productdesigner.jpg" width="270" alt="Team member product designer" />
             <h3>Игорь Демьяненко</h3>
@@ -109,8 +113,8 @@
 
     <!--Подвал страницы-->
     <footer>
-      <a href="/">WebStudio</a>
-      <address>
+      <a href="/" class="logo">Web<span class="logostudiofooter">Studio</span></a>
+      <address class="address">
         <p>г. Киев, пр-т Леси Украинки, 26</p>
         <a href="mailto:info@example.com">info@example.com</a> <br />
         <a href="tel:+380991111111">+38 099 111 11 11</a>

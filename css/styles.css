@@ -15,7 +15,8 @@
 body {
   background-color: white;
   color: #212121;
-  font-family: 'Roboto';
+  font-family: 'Roboto', sans-serif;
+  letter-spacing: 0.03em;
 }
 
 ul {
@@ -34,8 +35,8 @@ ul {
   text-align: left;
 }
 .logostudio {
-  text-decoration: none;
   color: black;
+  text-decoration: none;
   font-family: 'Oleo Script';
   font-weight: 700;
   font-style: normal;
@@ -44,17 +45,16 @@ ul {
   letter-spacing: 0.03em;
 }
 
-.nav-list.current {
-  color: var(--accent-color);
-}
-
-.header-email {
-  text-decoration: none;
-}
-
-.nav-list {
+.nav-header a {
   text-decoration: none;
   color: var(--title-text-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
+.nav-list.current {
+  color: var(--accent-color);
 }
 
 .nav-list:hover,
@@ -65,32 +65,106 @@ ul {
   text-decoration: none;
   color: var(--primary-text-color);
 }
+.nav-email {
+  color: var(--accent-color);
+  text-decoration: none;
+}
 
 /* Баннер */
 .banner-title {
   color: #ffffff;
-}
-
-.banner {
   background-color: #2f303a;
 }
-.banner-text {
-  color: #ffffff;
-}
-
-.banner-text {
+.button,
+.button-text {
+  font-family: inherit;
+  color: white;
   background-color: var(--accent-color);
-  color: var(--primary-bg-color);
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 1.8;
+}
+/* Наши преймущества */
+
+.ouradvantages h3 {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
 }
 
-.section-one h3 {
-  color: chocolate;
+.our-advantages p {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.5;
+  letter-spacing: 0.03em;
+  color: var(--primary-text-color);
+}
+/* Род деятельности */
+h2 {
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1.2;
+  text-align: center;
+  letter-spacing: 0.03em;
 }
 
-.section-one p {
-  color: chartreuse;
+.our-team h3 {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.2;
+  text-align: center;
+  letter-spacing: 0.03em;
 }
 
-.nav-header a {
-  color: blueviolet;
+.our-team p {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1.2;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--primary-text-color);
+}
+
+/* Footer */
+
+.logostudiofooter {
+  color: white;
+  text-decoration: none;
+  font-family: 'Oleo Script';
+  font-weight: 700;
+  font-style: normal;
+  font-size: 26px;
+  line-height: 35, 96px;
+  letter-spacing: 0.03em;
+}
+footer {
+  background-color: #2f303a;
+}
+
+.address p {
+  color: white;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+}
+
+.address a {
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.6);
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  /* or 171% */
+
+  letter-spacing: 0.03em;
 }
