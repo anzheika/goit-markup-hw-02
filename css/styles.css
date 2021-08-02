@@ -59,13 +59,20 @@ ul {
   color: var(--accent-color);
 }
 
+.nav-email,
 .nav-number {
   text-decoration: none;
-  color: #757575;
+  color: var(--primary-text-color);
+  font-weight: 500;
 }
-.nav-email {
+
+.nav-email:focus,
+.nav-email:hover {
   color: var(--accent-color);
-  text-decoration: none;
+}
+.nav-number:focus,
+.nav-number:hover {
+  color: var(--accent-color);
 }
 
 /* Баннер */
@@ -97,12 +104,16 @@ ul {
   line-height: 1.62;
   letter-spacing: 0.03em;
 }
+.work-examples .button-text-examples:hover {
+  background-color: var(--accent-color);
+  color: white;
+}
 /* Наши преймущества */
 
-.ouradvantages h3 {
-  font-weight: 700;
+.our-advantages h3 {
+  font-weight: bold;
   font-size: 14px;
-  line-height: 1.2;
+  line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
@@ -136,6 +147,20 @@ h2 {
   color: var(--primary-text-color);
 }
 
+/* Примеры работ в Портфолио */
+
+.work-examples h2 {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 2;
+}
+.work-examples p {
+  color: #757575;
+  font-size: 16px;
+  line-height: 1.8;
+}
+
 /* Footer */
 
 .logostudiofooter {
@@ -149,10 +174,12 @@ h2 {
 }
 footer {
   background-color: #2f303a;
+  font-style: normal;
 }
 
 .address p {
   color: white;
+  font-style: normal;
   font-weight: normal;
   font-size: 14px;
   line-height: 1.71;
@@ -160,20 +187,10 @@ footer {
 
 .address a {
   text-decoration: none;
+  font-style: normal;
   color: rgba(255, 255, 255, 0.6);
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-}
-
-.work-examples h2 {
-  font-weight: bold;
-  font-size: 18px;
-  line-height: 2;
-}
-.work-examples p {
-  color: #757575;
-  font-size: 16px;
-  line-height: 1.8;
 }
